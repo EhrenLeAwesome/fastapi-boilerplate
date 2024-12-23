@@ -1,7 +1,21 @@
 venv/
+.venv/
+env/
+.env
+.python-version
+.coverage
+htmlcov/
 .vscode/
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
 test.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
 
 # OS generated files #
 ######################
@@ -15,3 +29,7 @@ Thumbs.db
 
 # IntelliJ
 .idea/
+
+# Logs
+*.log
+logs/
